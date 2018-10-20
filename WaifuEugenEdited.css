@@ -1,0 +1,102 @@
+//META{"name":"Waifu Eugen","description":"Github: https://git.io/v7ovg    |   Support Server: https://discord.gg/kWRYPrq    |   Website: https://nfld99.com/","author":"NFLD99","version":"ersion auto updates"}*//{} 
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Master_Code.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_1_Guild_Row/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_2_Guild_Rows/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_3_Guild_Rows/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Animations/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Fonts/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Minimal/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Popup/Yes.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Channels/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Chat_Title_Bar/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Guilds/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Invites/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Members/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Windows_Bar/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Offline/No.css);
+@import url(https://nfld99.github.io/Better-Discord/Source_Code/Use_Hide/Popout_Footer/Yes.css);
+:root {
+  --Main-Colour: rgba(144,213,235,1);
+  --Background-Colour: rgba(19,18,34,1);
+  --S-Colour: rgba(19,18,34,.3);
+  --M-Colour: rgba(144,213,235,.5);
+  --Text-Shadow-Colour: rgba(0,0,0,.65);
+  --Scroller-Colour: rgba(144,213,235,0);
+  --Notification-Colour: rgba(144,213,235,1);
+  --Chat-Input-Background: rgba(19,18,34,0);
+  --Chat-Input-Colour: var(--Main-Colour) ;
+  --Unread-Message-1: var(--Main-Colour) ;
+  --Unread-Message-2: var(--Background-Colour) ;
+  --Chat-Background: url(https://i.imgur.com/RXvNWyB.jpg);
+  --Settings-Background: url(https://i.imgur.com/RXvNWyB.jpg);
+  --Callout-Background: url(https://i.imgur.com/RXvNWyB.jpg);
+  --Title-Background: var(--Background-Colour);
+  --Theme-Variant: "Blanc's Waifu";
+  --Chat-Font-Used: ;
+  --Chat-Font-Size: 15px;
+  --Unread-Message-Speed: 1.5s;
+  --Popout-Main-Colour: var(--Main-Colour);
+  --Popout-Background: var(--Chat-Background);
+  --Popout-Text-Shadow-Colour:var(--Text-Shadow-Colour);
+  --Emote-Popout-Background: var(--S-Colour);
+  --load1: "Thank You!";
+  --load2: "Please Enjoy!";
+  --load3: "➢NFLD99";
+  --Background-Brightness: 0.50;
+}
+.privateChannels-1nO12o .scroller-2FKFPG {"
+	text-align: center;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O a[href*="/channels/@me/"] {
+	padding: 8px 8px 8px 8px;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O a[href*="/channels/@me/"] .name-2WpE7M {
+	display: none;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] {
+	display: inline-block;
+	margin: 0px 0px 0px 2px;
+	width: 56px /*Essentially calc((100% / 4) - 2px);*/
+}
+
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 {
+	margin: 0;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"]:hover .close-3hZ5Ni {
+	margin-left: 4px;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small:hover::before {
+	content: var(--CDMUsername, "Error");
+	margin: 2.5px auto auto 35px;
+	background: #000;
+	font-size: 12px;
+	padding: 4px 4px 4px 4px;
+	border-radius: 10px;
+	transition: all 0.5s ease;
+	position: fixed;
+	z-index: 999;
+	white-space: nowrap;
+}
+
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small[user] {
+	--CDMUsername: attr(user);
+}
+
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small[channel] {
+	--CDMUsername: attr(channel);
+}
+
+/*for temporarily hiding user avatars and for hovering to show name.*/
+.privateChannels-1nO12o .channel-2QD9_O[style="height: 42px; opacity: 1;"] .wrapper-2F3Zv8 > .avatar-small {
+	transition: all 0.5s ease;
+	//background: #fff;
+	//background-image: none !important;
+}
