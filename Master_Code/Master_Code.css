@@ -15,7 +15,6 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
-
 body:before {
   content:"Currently On" var(--Update-Text);
   background: var(--Background-Colour);
