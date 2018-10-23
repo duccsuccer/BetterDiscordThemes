@@ -11,7 +11,7 @@ Status picker by URI -> https://cmpdc.github.io/bdtf/themes/FullScreenStatusPick
 @import url(https://nfld99.github.io/Better-Discord/Source_Code/FI/FIL.css);
 @import url(https://cmpdc.github.io/bdtf/themes/FullScreenStatusPicker/fullScreenStatusPicker.theme.css);
 :root{
-  --Update-Text: " Update #210 ";
+  --Update-Text: " Update #211 ";
 }
 
 /* THANKYOU URI FOR HELPING ME UPDATE THIS <3 */
@@ -1578,6 +1578,8 @@ spinner-pulsing-ellipsis .spinner-item {
   background-size: 90%!important;
   background-position: 80%!important;
   background-repeat: no-repeat!important;
+  width: 32px!important;
+  height: 100%!important;
 }
 
 .connectedAccountOpenIcon-2cNbq5 {
@@ -6402,6 +6404,7 @@ a[href="https://github.com/hammy1/BDPlugins"]:after {
 
 .typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div:nth-child(4) > svg > rect{
   stroke: var(--M-Colour)!important;
+  fill: var(--M-Colour)!important;
 }
 
 .typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div:nth-child(5) > svg > rect{
@@ -9066,4 +9069,9 @@ color: var(--M-Colour)!important;
 
 .appMount-3VJmYg .popout-3sVMXz.popoutTopLeft-b5Eb3O{
   animation: 500ms DropDown 1 linear;
+}
+
+.theme-dark .callAvatarWrapper-TICyxO .ripple-16ZT2p {
+  background-color: var(--Main-Colour)!important;
+  border-radius: 0%;
 }
